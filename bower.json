@@ -1,0 +1,13 @@
+{
+    "name": "tw-ui-combo",
+    "description": "Combobox for Angular Material",
+    "authors": [
+        "Zhao Yu <zhaoyu@techwuli.com>"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/techwuli/tw-ui-combo",
+    "dependencies": {
+        "angular": "^1.5.8",
+        "angular-material": "^1.1.1"
+    }
+}

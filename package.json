@@ -1,0 +1,31 @@
+{
+    "name": "tw-ui-combo",
+    "version": "0.0.1",
+    "description": "Combobox for Angular Material",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "gulp serve-sync"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/techwuli/tw-ui-combo.git"
+    },
+    "author": "Zhao Yu <zhaoyu@techwuli.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/techwuli/tw-ui-combo/issues"
+    },
+    "homepage": "https://github.com/techwuli/tw-ui-combo#readme",
+    "devDependencies": {
+        "browser-sync": "^2.15.0",
+        "gulp": "^3.9.1",
+        "gulp-directive-replace": "^0.3.1",
+        "gulp-less": "^3.1.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-uglify": "^2.0.0",
+        "gulp-util": "^3.0.7",
+        "less-plugin-autoprefix": "^1.5.1",
+        "less-plugin-clean-css": "^1.5.1",
+        "run-sequence": "^1.2.2"
+    }
+}

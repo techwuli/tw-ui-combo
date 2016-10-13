@@ -1,0 +1,29 @@
+<html ng-app="tw.ui.combo.example">
+
+    <head>
+        <title>tw-ui-combo example</title>
+        <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css"/>
+        <link rel="stylesheet" href="../dist/tw-ui-combo.css"/>
+        <link rel="stylesheet" href="example.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet"/>
+    </head>
+
+    <body ng-controller="MainController">
+    <p>This is test</p>
+        <md-input-container class="md-block">
+            <label>label</label>
+            <input ng-model="model" required name="model" tw-ui-combo tw-ui-combo-options="options" tw-ui-combo-selected="comboSelected" tw-ui-combo-delay="500" tw-ui-combo-min-length="2" tw-ui-combo-option-title="name" tw-ui-combo-option-caption="gender"/>
+        </md-input-container>
+        <p>This is test</p>
+        {{selected}}
+
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-animate/angular-animate.js"></script>
+        <script src="../bower_components/angular-aria/angular-aria.js"></script>
+        <script src="../bower_components/angular-material/angular-material.js"></script>
+        <script src="../bower_components/angular-messages/angular-messages.js"></script>
+        <script src="../dist/tw-ui-combo.js"></script>
+        <script src="example.js"></script>
+    </body>
+
+</html>
